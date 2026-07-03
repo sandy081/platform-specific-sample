@@ -3,14 +3,14 @@
 	"displayName": "Platform Specific Sample",
 	"description": "A minimal sample extension used to produce platform-specific VSIXs for testing built-in extension downloads from GitHub releases.",
 	"version": "0.0.1",
-	"publisher": "vscode-samples",
+	"publisher": "sample-publisher",
 	"license": "MIT",
 	"engines": {
 		"vscode": "^1.75.0"
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/vscode-samples/platform-specific-sample.git"
+		"url": "https://github.com/sample-publisher/platform-specific-sample.git"
 	},
 	"categories": [
 		"Other"
