@@ -1,0 +1,34 @@
+{
+	"name": "platform-specific-sample",
+	"displayName": "Platform Specific Sample",
+	"description": "A minimal sample extension used to produce platform-specific VSIXs for testing built-in extension downloads from GitHub releases.",
+	"version": "0.0.1",
+	"publisher": "vscode-samples",
+	"license": "MIT",
+	"engines": {
+		"vscode": "^1.75.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/vscode-samples/platform-specific-sample.git"
+	},
+	"categories": [
+		"Other"
+	],
+	"main": "./extension.js",
+	"activationEvents": [],
+	"contributes": {
+		"commands": [
+			{
+				"command": "platformSpecificSample.showTarget",
+				"title": "Platform Specific Sample: Show Target"
+			}
+		]
+	},
+	"scripts": {
+		"package": "node ./scripts/package.mjs"
+	},
+	"devDependencies": {
+		"@vscode/vsce": "^3.2.1"
+	}
+}
