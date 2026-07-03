@@ -2,7 +2,7 @@
 	"name": "platform-specific-sample",
 	"displayName": "Platform Specific Sample",
 	"description": "A minimal sample extension used to produce platform-specific VSIXs for testing built-in extension downloads from GitHub releases.",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"publisher": "sample-publisher",
 	"license": "MIT",
 	"engines": {
